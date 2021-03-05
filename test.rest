@@ -1,0 +1,12 @@
+GET http://localhost:3001/llibres
+###
+
+POST http://localhost:3001/llibres
+Content-Type: application/json
+
+{
+    "nom": "Llibre qualsevol",
+    "autor": "Escriptor anònim"
+}
+
+###
